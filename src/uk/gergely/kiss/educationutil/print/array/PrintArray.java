@@ -7,7 +7,7 @@ package uk.gergely.kiss.educationutil.print.array;
  *
  */
 public class PrintArray {
-
+	protected static String tabulator = "\t";
 	/**
 	 * Printing out one dimensional array to the console
 	 * 
@@ -26,7 +26,7 @@ public class PrintArray {
 	public static void printArray(Object[][] array) {
 		for (Object[] oa : array) {
 			for (Object o : oa) {
-				System.out.print(o + "\t");
+				System.out.print(o + tabulator);
 			}
 			System.out.println();
 		}
