@@ -6,11 +6,12 @@ package uk.gergely.kiss.educationutil.print.method.interfaces;
  * @param <InputType>
  * @param <OutputType>
  */
-public interface Printable<InputType, OutputType> {
+public interface PrintableWithException<InputType, OutputType> {
 	/**
 	 * 
 	 * @param input
 	 * @return
+	 * @throws Exception
 	 */
-	public OutputType execute(InputType input);
+	public OutputType execute(InputType input) throws Exception;
 }
