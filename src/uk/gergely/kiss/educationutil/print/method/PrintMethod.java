@@ -6,6 +6,8 @@ import uk.gergely.kiss.educationutil.print.method.printable.Printable;
 import uk.gergely.kiss.educationutil.print.method.printable.withexception.PrintableWithException;
 
 /**
+ * Print on the console the input and output of a method if the class
+ * implementing one the included printable interfaces.
  * 
  * @author Kiss Gergely
  *
